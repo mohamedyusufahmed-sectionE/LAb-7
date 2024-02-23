@@ -1,0 +1,44 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-color: hsla(0, 44%, 86%, 0.982);
+}
+
+h1 {
+  color: rgb(40, 41, 41);
+}
+
+#taskInput {
+  padding: 10px;
+  margin-right: 5px;
+  width: 300px;
+}
+
+#addTaskButton {
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  background-color: #fff;
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+}
+
+li input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+.delete-btn {
+  margin-left: auto;
+  cursor: pointer;
+}
